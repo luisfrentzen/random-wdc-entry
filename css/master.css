@@ -10,30 +10,78 @@ body{
   flex-flow: column nowrap;
 }
 
+.buttons-container {
+  position: fixed;
+  flex-direction: column;
+  z-index: 100;
+  top: 50%;
+  right: 0;
+  transform: translateY( -50%);
+}
+
+.navigation-button {
+  transition: 0.2s ease;
+  width: 0.7vw;
+  height: 0.7vw;
+  margin: 10px;
+  margin-right: 30px;
+  background-color: white;
+  border-radius: 0.2vw;
+  opacity: 0.5;
+}
+
 #parallax-container {
   height: 100vh;
   width: 100vw;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: none;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #9a9a9a;
 }
 
 .parallax-computers{
   position: fixed;
   z-index: 10;
   top: 50%;
-  left: 50%;
+  left: 55%;
   width: 40vw;
   transform: translate(-100%, -50%);
+}
+
+.parallax-computers-text{
+  opacity: 0.2;
+  top: -37%;
+  left: 4%;
+  z-index: 5;
+  position: fixed;
+  width: 40vw;
+  transform: translateX(-100%);
+}
+
+.parallax-computers-title{
+  opacity: 0.8;
+  top: 59%;
+  left: 40%;
+  z-index: 12;
+  position: fixed;
+  width: 50vw;
+  transform: translateX(-100%);
+}
+
+.parallax-to-title{
+  opacity: 0.8;
+  top: 30%;
+  left: -7%;
+  z-index: 12;
+  position: fixed;
+  width: 30vw;
+  transform: translateX(-100%);
+}
+
+.parallax-computers-to{
+  opacity: 0.8;
+  top: 19%;
+  left: 51%;
+  z-index: 12;
+  position: fixed;
+  width: 60vw;
+  transform: translateX(-100%);
 }
 
 .parallax-item {

@@ -1,8 +1,0 @@
-#013550 darkblue
-#0180c3 blue
-#75cfff lightblue
-
-004d75
-0180c3
-00a1f4
-75cfff
